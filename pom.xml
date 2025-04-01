@@ -33,7 +33,7 @@
     <plugins>
       <plugin>
         <artifactId>maven-compiler-plugin</artifactId>
-        <version>3.10.1</version>  <!-- Updated to a more recent version -->
+        <version>3.10.1</version> <!-- Updated to a more recent version -->
         <configuration>
           <source>21</source>  <!-- Updated to Java 21 -->
           <target>21</target>  <!-- Updated to Java 21 -->
@@ -83,6 +83,16 @@
           </reportPlugins>
         </configuration>
       </plugin>
+
+      <!-- Add Maven WAR Plugin with an updated version -->
+      <plugin>
+        <groupId>org.apache.maven.plugins</groupId>
+        <artifactId>maven-war-plugin</artifactId>
+        <version>3.3.1</version> <!-- Updated to the latest stable version -->
+        <configuration>
+          <!-- Add configurations here as required -->
+        </configuration>
+      </plugin>
     </plugins>
 
     <pluginManagement>
@@ -94,7 +104,7 @@
 
         <plugin>
           <artifactId>maven-compiler-plugin</artifactId>
-          <version>3.8.1</version>  <!-- Updated to a more recent version -->
+          <version>3.8.1</version> <!-- Updated to a more recent version -->
         </plugin>
 
         <plugin>
